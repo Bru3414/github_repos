@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #34ace0;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.input {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #111;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+:root {
+    --CorPrincipal: #d1ccc0;
+    --CorSecundaria: #111;
+}
